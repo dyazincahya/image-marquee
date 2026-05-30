@@ -24,30 +24,30 @@ Cocok untuk gambar seperti daftar logo, partner, brand cloud, timeline visual, a
 - ✅ Kontrol kecepatan/durasi animasi
 - ✅ Direction `left` atau `right`
 - ✅ Edge fade yang bisa dikustom
-- ✅ Support Next.js lewat entrypoint `image-marquee/next` yang memakai `next/image`
+- ✅ Support Next.js lewat entrypoint `react-image-marquee/next` yang memakai `next/image`
 - ✅ Aksesibel: gambar duplikat otomatis `aria-hidden`
 - ✅ Respect `prefers-reduced-motion`
 
 ## Instalasi
 
 ```bash
-npm install image-marquee
+npm install react-image-marquee
 ```
 
 atau:
 
 ```bash
-yarn add image-marquee
-pnpm add image-marquee
+yarn add react-image-marquee
+pnpm add react-image-marquee
 ```
 
-> Catatan: jika nama `image-marquee` sudah dipakai di npm, ganti `name` di `package.json` sebelum publish, misalnya `@dyazincahya/image-marquee` atau `react-image-marquee`.
+> Package ini dipublish sebagai `react-image-marquee` di npm.
 
 ## Penggunaan React biasa
 
 ```tsx
-import { ImageMarquee } from "image-marquee";
-import "image-marquee/styles.css";
+import { ImageMarquee } from "react-image-marquee";
+import "react-image-marquee/styles.css";
 
 export default function App() {
   return (
@@ -68,8 +68,8 @@ export default function App() {
 Untuk Next.js, gunakan entrypoint khusus agar image renderer memakai `next/image`.
 
 ```tsx
-import { ImageMarquee } from "image-marquee/next";
-import "image-marquee/styles.css";
+import { ImageMarquee } from "react-image-marquee/next";
+import "react-image-marquee/styles.css";
 
 export default function Page() {
   return (
@@ -90,14 +90,14 @@ export default function Page() {
 }
 ```
 
-`next/image` membutuhkan metadata `width` dan `height` untuk gambar dari `public` path atau remote URL. Karena itu, isi `imageProps.width` dan `imageProps.height` saat memakai `image-marquee/next`.
+`next/image` membutuhkan metadata `width` dan `height` untuk gambar dari `public` path atau remote URL. Karena itu, isi `imageProps.width` dan `imageProps.height` saat memakai `react-image-marquee/next`.
 
 Jika ingin tetap import dari entrypoint utama dan mengatur sendiri renderer Next Image:
 
 ```tsx
 import Image from "next/image";
-import { ImageMarquee } from "image-marquee";
-import "image-marquee/styles.css";
+import { ImageMarquee } from "react-image-marquee";
+import "react-image-marquee/styles.css";
 
 export default function Page() {
   return (
@@ -260,7 +260,7 @@ Untuk fallback CSS-only, gunakan mode `blend`:
 Import CSS bawaan satu kali di entry file aplikasi Anda:
 
 ```tsx
-import "image-marquee/styles.css";
+import "react-image-marquee/styles.css";
 ```
 
 Di Next.js App Router, import CSS ini bisa diletakkan di `app/layout.tsx` atau file global stylesheet Anda.

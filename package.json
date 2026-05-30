@@ -1,17 +1,17 @@
 {
-  "name": "image-marquee",
+  "name": "react-image-marquee",
   "version": "1.0.0",
   "description": "A lightweight React component for elegant wide image marquee animations.",
   "type": "module",
   "license": "MIT",
   "author": "Kang Cahya <https://github.com/dyazincahya>",
-  "homepage": "https://github.com/dyazincahya/image-marquee#readme",
+  "homepage": "https://github.com/dyazincahya/react-image-marquee#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dyazincahya/image-marquee.git"
+    "url": "git+https://github.com/dyazincahya/react-image-marquee.git"
   },
   "bugs": {
-    "url": "https://github.com/dyazincahya/image-marquee/issues"
+    "url": "https://github.com/dyazincahya/react-image-marquee/issues"
   },
   "keywords": [
     "react",

@@ -24,7 +24,7 @@ It is ideal for logo strips, partner sections, brand clouds, visual timelines, a
 - ✅ Configurable animation speed/duration
 - ✅ Direction: `left` or `right`
 - ✅ Customizable edge fade
-- ✅ Next.js support through `image-marquee/next` using `next/image`
+- ✅ Next.js support through `react-image-marquee/next` using `next/image`
 - ✅ Accessible duplicates: repeated images are automatically `aria-hidden`
 - ✅ Respects `prefers-reduced-motion`
 - ✅ Optional white/background removal via canvas `color-to-alpha`
@@ -32,23 +32,23 @@ It is ideal for logo strips, partner sections, brand clouds, visual timelines, a
 ## Installation
 
 ```bash
-npm install image-marquee
+npm install react-image-marquee
 ```
 
 or:
 
 ```bash
-yarn add image-marquee
-pnpm add image-marquee
+yarn add react-image-marquee
+pnpm add react-image-marquee
 ```
 
-> Note: if the `image-marquee` name is already taken on npm, change the `name` field in `package.json` before publishing, for example `@dyazincahya/image-marquee` or `react-image-marquee`.
+> This package is published as `react-image-marquee` on npm.
 
 ## Basic React usage
 
 ```tsx
-import { ImageMarquee } from "image-marquee";
-import "image-marquee/styles.css";
+import { ImageMarquee } from "react-image-marquee";
+import "react-image-marquee/styles.css";
 
 export default function App() {
   return (
@@ -69,8 +69,8 @@ export default function App() {
 For Next.js, use the dedicated entrypoint so images are rendered with `next/image`.
 
 ```tsx
-import { ImageMarquee } from "image-marquee/next";
-import "image-marquee/styles.css";
+import { ImageMarquee } from "react-image-marquee/next";
+import "react-image-marquee/styles.css";
 
 export default function Page() {
   return (
@@ -91,14 +91,14 @@ export default function Page() {
 }
 ```
 
-`next/image` requires `width` and `height` metadata for public-path or remote images, so provide `imageProps.width` and `imageProps.height` when using `image-marquee/next`.
+`next/image` requires `width` and `height` metadata for public-path or remote images, so provide `imageProps.width` and `imageProps.height` when using `react-image-marquee/next`.
 
 If you prefer importing from the main entrypoint and passing the Next image renderer manually:
 
 ```tsx
 import Image from "next/image";
-import { ImageMarquee } from "image-marquee";
-import "image-marquee/styles.css";
+import { ImageMarquee } from "react-image-marquee";
+import "react-image-marquee/styles.css";
 
 export default function Page() {
   return (
@@ -261,7 +261,7 @@ For a CSS-only fallback, use `blend` mode:
 Import the default CSS once in your app entry file:
 
 ```tsx
-import "image-marquee/styles.css";
+import "react-image-marquee/styles.css";
 ```
 
 In Next.js App Router, import this CSS in `app/layout.tsx` or your global stylesheet.
