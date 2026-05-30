@@ -6,7 +6,7 @@
   <a href="./README.md">🇬🇧 English</a> · <strong>🇮🇩 Indonesia</strong>
 </p>
 
-# Image Marquee
+# React Image Marquee
 
 Komponen React ringan untuk menampilkan gambar super lebar sebagai marquee/loop horizontal yang halus, dengan fade di sisi kiri-kanan dan pause saat hover.
 
