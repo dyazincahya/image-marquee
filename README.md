@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>🇬🇧 English</strong> | <a href="./README-id.md">🇮🇩 Indonesia</a>
+  <strong>🇬🇧 English</strong> · <a href="./README-id.md">🇮🇩 Indonesia</a>
 </p>
 
 # Image Marquee
@@ -13,7 +13,7 @@ A lightweight React + TypeScript component for displaying very wide images as a 
 It is ideal for logo strips, partner sections, brand clouds, visual timelines, and wide panorama-style banners.
 
 <p align="center">
-  <img src="./assets/demo.gif" alt="Image Marquee animated demo" width="900" />
+  <a href="https://image-marquee.vercel.app"><strong>Live Demo</strong></a>
 </p>
 
 ## Features
