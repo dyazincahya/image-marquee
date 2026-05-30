@@ -1,0 +1,77 @@
+{
+  "name": "image-marquee",
+  "version": "1.0.0",
+  "description": "A lightweight React component for elegant wide image marquee animations.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Kang Cahya <https://github.com/dyazincahya>",
+  "homepage": "https://github.com/dyazincahya/image-marquee#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyazincahya/image-marquee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dyazincahya/image-marquee/issues"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "marquee",
+    "image-marquee",
+    "carousel",
+    "animation"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "dist",
+    "assets",
+    "README.md",
+    "README-id.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "style": "./dist/styles.css",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./next": {
+      "types": "./dist/next.d.ts",
+      "import": "./dist/next.js",
+      "require": "./dist/next.cjs"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "next": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-plugin-dts": "^4.3.0"
+  }
+}

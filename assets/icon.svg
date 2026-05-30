@@ -1,0 +1,103 @@
+<svg
+  width="960"
+  height="220"
+  viewBox="0 0 960 220"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Marquee image icon</title>
+  <desc
+    id="desc"
+  >A rounded marquee frame with flowing image cards and motion arrows.</desc>
+  <rect width="960" height="220" rx="52" fill="#111827" />
+  <rect x="54" y="44" width="852" height="132" rx="34" fill="#F2F4FF" />
+  <path
+    d="M84 110H876"
+    stroke="url(#line)"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-dasharray="36 30"
+  />
+  <g filter="url(#shadow)">
+    <rect x="124" y="68" width="140" height="84" rx="22" fill="white" />
+    <circle cx="166" cy="110" r="22" fill="#38BDF8" />
+    <path d="M194 132L218 96L242 132H194Z" fill="#22C55E" />
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="326" y="68" width="140" height="84" rx="22" fill="white" />
+    <circle cx="370" cy="106" r="19" fill="#F97316" />
+    <path
+      d="M394 130C409 98 426 85 450 80C433 113 419 128 394 130Z"
+      fill="#8B5CF6"
+    />
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="528" y="68" width="140" height="84" rx="22" fill="white" />
+    <path d="M566 128L594 84L622 128H566Z" fill="#3B82F6" />
+    <circle cx="632" cy="106" r="21" fill="#EAB308" />
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="730" y="68" width="140" height="84" rx="22" fill="white" />
+    <path
+      d="M760 110C778 88 812 84 838 106"
+      stroke="#EF4444"
+      stroke-width="12"
+      stroke-linecap="round"
+    />
+    <path
+      d="M760 132C786 110 820 110 850 130"
+      stroke="#10B981"
+      stroke-width="12"
+      stroke-linecap="round"
+    />
+  </g>
+  <path
+    d="M786 34H842L818 10"
+    stroke="#60A5FA"
+    stroke-width="12"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M174 186H118L142 210"
+    stroke="#A78BFA"
+    stroke-width="12"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <defs>
+    <linearGradient
+      id="line"
+      x1="84"
+      y1="110"
+      x2="876"
+      y2="110"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#A78BFA" stop-opacity="0" />
+      <stop offset="0.25" stop-color="#A78BFA" />
+      <stop offset="0.5" stop-color="#38BDF8" />
+      <stop offset="0.75" stop-color="#34D399" />
+      <stop offset="1" stop-color="#34D399" stop-opacity="0" />
+    </linearGradient>
+    <filter
+      id="shadow"
+      x="104"
+      y="52"
+      width="786"
+      height="124"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feDropShadow
+        dx="0"
+        dy="8"
+        stdDeviation="10"
+        flood-color="#1F2937"
+        flood-opacity="0.18"
+      />
+    </filter>
+  </defs>
+</svg>
