@@ -6,7 +6,7 @@
   <strong>🇬🇧 English</strong> · <a href="./README-id.md">🇮🇩 Indonesia</a>
 </p>
 
-# Image Marquee
+# React Image Marquee
 
 A lightweight React + TypeScript component for displaying very wide images as a smooth horizontal marquee, with hover pause, direction control, edge fade, and optional client-side background removal.
 
