@@ -12,6 +12,10 @@ Komponen React ringan untuk menampilkan gambar super lebar sebagai marquee/loop 
 
 Cocok untuk gambar seperti daftar logo, partner, brand cloud, timeline visual, atau banner panorama.
 
+<p align="center">
+  <img src="./assets/demo.gif" alt="Demo animasi Image Marquee" width="900" />
+</p>
+
 ## Fitur
 
 - ✅ React + TypeScript
